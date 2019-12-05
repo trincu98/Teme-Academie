@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    font-family: sans-serif;
+    --my-color:rgb(244, 115, 49);
+}
+nav{
+    background-color: var(--my-color);
+    text-align: right;
+
+}
+li{
+    display: inline-block;
+    padding: 0.5em 0.7em;
+}
+a{
+text-decoration: none;
+color: white;
+}
+nav li:first-child{
+    font-size: 1.2em;
+}
+#home{
+    background-image: url("headerback.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#overlay{
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%;
+    width: 100%;
+}
+#container{
+    position: absolute;
+    width: 70%;
+    height: 25%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+h1{
+    color: var(--my-color);
+    font-size: 2.3em;
+    width: 75%;
+}
+#home p{
+    font-size: 1.2em;
+    color: rgb(85, 85, 85);
+    font-family: "DIN Alternate";
+    width: 50%;
+    padding: 1em 0;
+
+}
+input[type="button"]{
+    width: 15%;
+    padding: 0.3em;
+    border-radius: 5px;
+    background-color: var(--my-color);
+    font-size: 1em;
+    color: white;
+    border-style: none;
+    
+}

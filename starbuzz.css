@@ -1,0 +1,26 @@
+
+  body{
+    text-align: center;
+    background-color: #D2B48C;
+font-family: sans-serif;
+  }
+  blockquote{
+    font-family: cursive;
+  }
+  h2{
+    text-align: center;
+  }
+  li{
+    font-family: fantasy;
+    text-align: center;
+  }
+  h1 { color:#5A6F50;
+    font-family: cursive;35px;
+
+  }
+  h2, h3{color saddlebrown;
+  font-family: cursive;
+}
+  span{ color: #5A6F50;
+}
+  #special{ font-style:italic; }
